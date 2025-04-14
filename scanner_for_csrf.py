@@ -1,5 +1,5 @@
 import urllib.parse
-
+#external library used to parse through the data by extracting the data from the url
 def generate_xss_payloads():
     """Generate a list of XSS payloads designed to evade character-based filters."""
     payloads = []
